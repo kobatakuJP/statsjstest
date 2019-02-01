@@ -12,6 +12,7 @@ $ npm install
 
 ```
 $ npm run build-d
+// display compile error, don't mind.
 $ npm run server
 ```
 
@@ -23,6 +24,7 @@ see localhost:8080 from your browser.
 
 ```
 $ npm run build-h
+// display compile error, don't mind.
 $ npm run server
 ```
 
