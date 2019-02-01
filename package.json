@@ -1,0 +1,33 @@
+{
+  "name": "statsjstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-h": "npx webpack --config webpack.config.h.js",
+    "build-d": "npx webpack --config webpack.config.d.js",
+    "server": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobatakuJP/statsjstest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobatakuJP/statsjstest/issues"
+  },
+  "homepage": "https://github.com/kobatakuJP/statsjstest#readme",
+  "dependencies": {
+    "source-map-loader": "^0.2.4",
+    "stats-js": "1.0.0",
+    "ts-loader": "^5.3.3",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/stats.js": "0.17.0",
+    "http-server": "^0.11.1",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.0"
+  }
+}
