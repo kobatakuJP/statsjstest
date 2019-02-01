@@ -4,6 +4,7 @@ see https://github.com/DefinitelyTyped/DefinitelyTyped/pull/32471
 
 ```
 $ git clone https://github.com/kobatakuJP/statsjstest.git
+$ cd statsjstest
 $ npm install
 ```
 
